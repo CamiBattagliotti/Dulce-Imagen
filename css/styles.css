@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8fc;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playwrite DK Loopet", cursive;
+  color: #825cfe;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+#cupcakes-gif {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* Navegación en forma de lista horizontal */
+nav ul {
+  list-style: none; /* Elimina viñetas */
+  padding: 0; /* Elimina relleno */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 20px; /* Espacio entre los ítems de la lista */
+}
+
+nav ul li a {
+  font-size: 1.4rem;
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold; /* Negrita */
+}
+
+.link {
+  color: #825cfe;
+}
+
+.link:hover {
+  color: #6f4ae2;
+  /* outline: 1px solid; */
+}
+
+section {
+  padding: 20px; /* Espacio interior */
+  text-align: center; /* Centra el texto */
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #d8fff2;
+  color: #825cfe;
+  text-align: center; /* Centrado de texto */
+  padding: 15px; /* Espacio interior */
+  margin-top: 30px; /* Separación del contenido anterior */
+}

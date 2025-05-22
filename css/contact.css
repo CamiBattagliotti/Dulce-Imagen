@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playwrite DK Loopet", cursive;
+  color: #825cfe;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3edff;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  margin-right: auto;
+}
+
+form fieldset {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+form legend {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #5a4db2;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #825cfe;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+form button:hover {
+  background-color: #6f4ae2;
+}
+
+section ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+section ul li img {
+  width: 40px;
+  height: auto;
+}
+
+footer {
+  background-color: #d8fff2;
+  color: #825cfe;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

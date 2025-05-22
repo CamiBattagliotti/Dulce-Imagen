@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="icon"
+      href="../assets/icons/favicon-32x32.png"
+      type="image/png"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#F9C" />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS propio -->
+
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Formulario de contacto</h1>
+
+      <section>
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Informacion personal</legend>
+
+            <div>
+              <label for="name">Nombre:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Abel Pintos"
+                required
+                minlength="4"
+                maxlength="20"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="abel@gmail.com"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="phone">Telefono:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="3406589567"
+                required
+                pattern="[0-9]{10}"
+                title="debe omitir 0 ni 15"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Mensaje</legend>
+
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Escribe aqui tu mensaje"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </fieldset>
+
+          <button>Enviar</button>
+        </form>
+      </section>
+      <br />
+
+      <!-- Redes sociales -->
+
+      <section>
+        <h2>Tambien podes contactarnos a traves de nuestras Redes !</h2>
+        <ul>
+          <li>
+            <a href="whatsapp://send?text=Hola Vero!"
+              ><img
+                src="../assets/icons/whatsapp.png"
+                alt="Icono de whatsapp"
+                width="30"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="https://www.facebook.com/dulce.imagen.7?rdid=xWD0iYWk2W5DhLfJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15Cwqy7s6t%2F"
+              target="_blank"
+              rel="noreferrer"
+              ><img
+                src="https://imgs.search.brave.com/wJTh4voWx3iqfXUfYvCx9NKtyh4l0Qysmlv6qyRvmfk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2I5LzIwMjNfRmFj/ZWJvb2tfaWNvbi5z/dmc"
+                alt="Icono de facebook"
+                width="30"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="https://www.instagram.com/veromansilla83"
+              target="_blank"
+              rel="noreferrer"
+              ><img
+                src="../assets/icons/instagram.png"
+                alt="Icono de Instagram"
+                width="30"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+
+    <footer>
+      <div>
+        Copyright @ 2025 - Dulce Imagen - Todos los derechos reservados.
+      </div>
+    </footer>
+  </body>
+</html>

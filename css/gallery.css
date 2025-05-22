@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8fc;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playwrite DK Loopet", cursive;
+  color: #825cfe;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.destacada {
+  grid-column: span 2;
+}
+
+@media (min-width: 600px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+footer {
+  background-color: #d8fff2;
+  color: #825cfe;
+  text-align: center; /* Centrado de texto */
+  padding: 15px; /* Espacio interior */
+  margin-top: 30px; /* Separación del contenido anterior */
+}
