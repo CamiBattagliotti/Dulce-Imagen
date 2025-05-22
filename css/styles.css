@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -19,11 +19,27 @@ h6 {
   font-family: "Playwrite DK Loopet", cursive;
   color: #825cfe;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #444;
+  max-width: 700px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+section p {
+  text-align: left;
 }
 
 #cupcakes-gif {
@@ -39,6 +55,7 @@ nav ul {
   display: flex; /* Activa Flexbox */
   justify-content: center; /* Centra los elementos horizontalmente */
   gap: 20px; /* Espacio entre los ítems de la lista */
+  margin-top: 1.5rem;
 }
 
 nav ul li a {
@@ -64,10 +81,15 @@ section {
 .social-media {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   list-style: none;
   padding: 0;
   margin-top: 2rem;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
 }
 
 footer {
