@@ -1,42 +1,16 @@
 # Dulce Imagen
 
-**Dulce Imagen** es un emprendimiento dedicado a la elaboración de tortas, cupcakes, postres, alfajores y galletitas, todo hecho a medida y personalizado para cada ocasión especial.
+Este sitio web fue creado para presentar el emprendimiento **Dulce Imagen**, que se dedica a la elaboración personalizada de tortas, cupcakes, alfajores, postres y galletitas.
+
+El propósito de la página es mostrar los productos disponibles, brindar información sobre el emprendimiento y facilitar el contacto con potenciales clientes a través de un formulario y redes sociales.
 
 ---
 
-## Sobre el proyecto
+## Tecnologías utilizadas
 
-En Dulce Imagen creemos que cada dulce es una obra de arte pensada para sorprender y deleitar. Ofrecemos productos frescos, con ingredientes de calidad y un toque único para que cada celebración sea inolvidable.
-
----
-
-## Productos
-
-- Tortas decoradas personalizadas  
-- Cupcakes para todo tipo de eventos  
-- Postres artesanales  
-- Alfajores tradicionales  
-- Galletitas con diseños exclusivos  
+- HTML5
+- CSS3
 
 ---
 
-## Contacto
-
-Para pedidos y consultas, podés usar nuestro formulario de contacto en la web o comunicarte a través de nuestras redes sociales.
-
----
-
-## Tecnologías usadas
-
-- HTML5  
-- CSS3  
-- JavaScript  
-
----
-
-¡Gracias por visitar Dulce Imagen!  
-Endulzamos tus momentos más especiales.
-
----
-
-*Este repositorio contiene el código fuente del sitio web oficial de Dulce Imagen.*
+_Este repositorio contiene el código fuente del sitio web de Dulce Imagen._
