@@ -38,7 +38,6 @@ h1 {
 }
 
 .galeria figure {
-  border-radius: 10px;
   flex: 1 1 250px;
   text-align: center;
   display: flex;
@@ -61,6 +60,7 @@ h1 {
   height: auto;
   object-fit: cover;
   flex-shrink: 0;
+  border-radius: 10px;
 }
 
 /* === FIGCAPTION GENERAL === */
@@ -75,7 +75,7 @@ h1 {
 
 /* === FEATURED === */
 .featured {
-  width: 100%; /* Ocupar todo el ancho disponible */
+  width: 90%; /* Ocupar todo el ancho disponible */
   max-width: 1000px; /* Límite para que no se estire indefinidamente */
   aspect-ratio: 3 / 2; /* Mantiene forma horizontal original */
   flex: 1 1 100%;
@@ -83,7 +83,7 @@ h1 {
 
 .featured img {
   width: auto;
-  max-width: 100%; /* Hace que se vea más grande que las demás */
+  max-width: 90%; /* Hace que se vea más grande que las demás */
   height: auto; /* Mantiene proporciones reales */
   object-fit: contain; /* Evita que se recorte */
   display: block;
@@ -101,7 +101,7 @@ h1 {
 footer {
   background-color: #d8fff2;
   color: #825cfe;
-  text-align: center; /* Centrado de texto */
+  text-align: center;
   padding: 15px; /* Espacio interior */
   margin-top: 30px; /* Separación del contenido anterior */
 }
