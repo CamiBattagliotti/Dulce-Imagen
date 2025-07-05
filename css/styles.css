@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6e6fd;
+  background-color: #fff4f9    ;
 }
 
 header {
@@ -19,8 +19,12 @@ h6 {
   font-family: "Playwrite DK Loopet", cursive;
   color: #825cfe;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 0;
+}
+
+h6 {
+  font-size: 2rem;
 }
 
 h1 {
@@ -28,24 +32,22 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
+.layout{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+
 p {
-  font-size: 1rem;
-  color: #444;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #262525;
   max-width: 700px;
 }
 
 section {
   padding: 40px 20px;
-}
-
-section p {
-  text-align: left;
-}
-
-#cupcakes-gif {
-  display: block;
-  margin: 0 auto;
-  width: 400px;
 }
 
 /* Navegación en forma de lista horizontal */
@@ -73,29 +75,126 @@ nav ul li a {
   /* outline: 1px solid; */
 }
 
-section {
-  padding: 20px; /* Espacio interior */
-  text-align: center; /* Centra el texto */
+main {
+  width: 100%;
+  max-width: 1200px; /* Más ancho, se adapta mejor en pantallas grandes */
+  margin: 0 auto;
+  padding: 0 20px; /* Deja un pequeño margen en pantallas chicas */
 }
+
+
+section p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%; /* Eliminá el límite de 700px */
+}
+
+
+/* === FEATURED === */
+.featured {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.featured img {
+  display: block;
+margin: 0 auto;
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 25px;
+}
+
 
 .social-media {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   list-style: none;
   padding: 0;
   margin-top: 2rem;
 }
+
+.social-media img {
+  width: 4rem;     
+  height: 4rem;  
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
 
 .products {
   list-style: none;
   padding: 0;
 }
 
+#contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Cada tarjeta de producto */
+.tarjeta-producto {
+  background-color: #f3edff;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Imagen de producto */
+.tarjeta-producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Título */
+.tarjeta-producto .titulo-producto {
+  font-size: 1.2rem;
+  margin: 0.8rem 0 0.4rem;
+}
+
+/* Precio */
+.tarjeta-producto p {
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
+
+/* Botón */
+.tarjeta-producto button {
+  background-color: #825cfe;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.tarjeta-producto button:hover {
+  background-color: #6f4ae2;
+}
+
 footer {
-  background-color: #d8fff2;
+  background-color: #f3edff;
   color: #825cfe;
   text-align: center; /* Centrado de texto */
   padding: 15px; /* Espacio interior */
   margin-top: 30px; /* Separación del contenido anterior */
 }
+
+

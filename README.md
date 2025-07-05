@@ -10,6 +10,8 @@ El propósito de la página es mostrar los productos disponibles, brindar inform
 
 - HTML5
 - CSS3
+- JavaScript
+- Proximamente React!
 
 ---
 

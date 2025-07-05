@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+    />
+
+    <!-- CSS propio -->
+
+    <link rel="stylesheet" href="../css/carrito.css" />
+</head>
+
+<body>
+    <div class="layout">
+    <header>
+    <h1>Dulce Imagen</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./carrito.html" class="carrito-icono">
+                    🛒 <span id="contador-carrito">0</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    
+
+    <main>
+        <h2 class="titulo-carrito">
+            Carrito de compras
+        </h2>
+        <section id="contenedor-carrito">
+            <!-- Productos del carrito -->
+        </section>
+        <div id="acciones-carrito">
+            <!-- Botones de eliminar y finalizar compra agregados desde js -->
+        </div>
+        <section id="resumen-carrito">
+            <!-- Resumen del carrito -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dulce Imagen</p>
+    </footer>
+    </div>
+
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

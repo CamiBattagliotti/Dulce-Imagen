@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8fc;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3edff;
+  color: #825cfe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playwrite DK Loopet", cursive;
+  color: #825cfe;
+  text-align: center;
+  margin: 0;
+}
+
+h1 { font-size: 2.5rem; }
+h3 { font-size: 1.3rem; }
+
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1.5rem;
+}
+
+nav a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #825cfe;
+}
+
+nav a:hover {
+  color: #6f4ae2;
+}
+
+#contador-carrito {
+  background-color: #825cfe;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+#contenedor-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.producto-carrito {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background: #f3edff;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.producto-carrito img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.producto-carrito h3 {
+  flex: 1;
+  color: #262525;
+}
+
+.producto-carrito p {
+  margin: 0 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn-eliminar-carrito,
+#acciones-carrito button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eliminar-carrito {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-eliminar-carrito:hover {
+  background-color: #d32f2f;
+}
+
+#acciones-carrito {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+#acciones-carrito button {
+  background-color: #825cfe;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+#acciones-carrito button:hover {
+  background-color: #6f4ae2;
+}
+
+.mensaje-carrito {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+.titulo-carrito {
+  font-size: 2rem;
+  color: #825cfe;
+  text-align: center;
+  margin-top: 1rem;
+}

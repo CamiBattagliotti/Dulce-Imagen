@@ -35,17 +35,10 @@
     <header>
       <h1>Dulce Imagen</h1>
       <h6>Endulzamos tus momentos más especiales.</h6>
+
       <nav>
         <ul>
-          <li>
-            <a
-              class="link"
-              href="./pages/gallery.html"
-              target="_blank"
-              rel="noreferrer"
-              >Galeria</a
-            >
-          </li>
+          <li><a class="link" href="#contenedor-productos">Productos</a></li>
           <li>
             <a
               class="link"
@@ -64,7 +57,21 @@
               >Reseñas</a
             >
           </li>
-          <li><a class="link" href="#productos">Productos</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">
+            🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
+          <!-- <li>
+            <a
+              class="link"
+              href="./pages/carrito.html"
+              target="_blank"
+              rel="noreferrer"
+              >Carrito</a
+            >
+          </li> -->
+          </ul>
           </nav>
   </header>
 
@@ -78,21 +85,20 @@
           Creemos que cada dulce es una obra de arte pensada para sorprender y deleitar. Ofrecemos productos frescos, con ingredientes de calidad y un toque único para que cada celebración sea inolvidable.
         </p>
         </section>
-        <figure>
-          <img
-            id="cupcakes-gif"
-            src="https://media1.tenor.com/m/BOMrzW02VW0AAAAC/cupcakes-dessert.gif"
-            alt="Un gif de cupcakes decorados colocados sobre un plato con sprinkles de colores cayendo sobre ellos"
-            title="Gif de cupcakes"
-            width="300"
-          />
-        </figure>
+        <div class="featured">
+          <figure>
+            <img
+              src="./assets/images/Minnie.jpg"
+              alt="torta y cupcakes de Minnie"
+            />
+          </figure>
+        </div>
 
         <!-- Redes sociales -->
       
       <section>
             <h2>Nuestras Redes Sociales</h2>
-            <p>Para pedidos y consultas, podés usar nuestro formulario de contacto en la web o comunicarte a través de nuestras redes sociales:</p>
+            
             <div class="social-media">
                 <a
                   class="link"
@@ -110,7 +116,7 @@
                   target="_blank"
                   rel="noreferrer"
                   ><img
-                    src="https://imgs.search.brave.com/tCNKTnGUMXJ3wL2ZOKBS7qsMjJxE6YQl8z4eLlymj20/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9pbnN0YWdy/YW0taWNvbi0yNTZ4/MjU2LWVzNmF1ZHc1/LnBuZw"
+                    src="./assets/icons/instagram.png"
                     alt="Icono de Instagram"
                     width="50"
                 /></a>
@@ -126,30 +132,16 @@
         productos son hechos con el amor y la dedicación que nos caracteriza.
       </p>
     </section>
-
+<div class="layout">
+  
+  <section>
+          <h2>⭐ Nuestros productos destacados⭐</h3>
+  </section>
+  
     <!-- Sección de productos -->
-      <section>
-          <h2 id="productos">¡Descubre nuestros deliciosos productos!</h2>
-    
-        <p>
-          Navega a través de nuestro catálogo y encuentra el postre perfecto
-          para tu ocasión especial. Desde tortas decoradas hasta cupcakes
-          irresistibles, en Dulce Imagen tenemos algo para todos los gustos.
-        </p>
-      </section>
-
-      <section>
+      <section id="contenedor-productos">
         
-          <h3>⭐ Los mas populares ⭐</h3>
-
-        <ul class="products">
-          <li><strong><em></em>Tortas decoradas personalizadas</em></strong></li>
-          <li><strong><em></em>Cupcakes para todo tipo de eventos</em></strong></li>
-          <li><strong><em></em>Postres artesanales</em></strong></li>
-          <li><strong><em></em>Alfajores tradicionales</em></strong></li>
-          <li><strong><em></em>Galletitas con diseños exclusivos</em></strong></li>
-          <li><strong><em></em>Y mucho, mucho mas!</em></strong></li>
-        </ul>
+    <!-- Las tarjetas de productos se renderizan aca -->
         </section>
         <br>
     </main>
@@ -160,5 +152,8 @@
         Copyright @ 2025 - Dulce Imagen - Todos los derechos reservados.
       </div>
     </footer>
+    </div>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
